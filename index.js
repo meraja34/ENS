@@ -66,7 +66,6 @@ app.post("/grow", (req, res) => {
       </style>
     </head>
     <body>
-      <h1>Pup Frame</h1>
       <div class="iframe-container">
         <iframe src=${custom_image_url}></iframe>
       </div>
@@ -78,4 +77,3 @@ app.post("/grow", (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-
